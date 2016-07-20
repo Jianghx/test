@@ -9,7 +9,7 @@ public class FuckingCoffee{
     private static final String COFFEE_MACHINE_IP = "10.10.42.42";
     private static int DELAY_BEFORE_BREW = 17;
     private static int DELAY = 24;
-    
+
     public static void main(String[] args)throws Exception{
         for(int i =  1; i< args.length ; i++){
             if(!args[i].contains(MY_USERNAME)){
